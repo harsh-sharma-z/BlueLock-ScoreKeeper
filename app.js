@@ -33,7 +33,7 @@ function updatesScores(player,opponent)
             player.wins+=1;
             if(player.wins===3)
             {
-                winBoard.textContent=`Yayy!! Player ${player.num} made a hattrick!`
+                winBoard.textContent=`Yayy!! Player ${player.num} won 3 times!!!`
                 winBoard.classList.add('has-text-warning')
                 isHattrick=true;
             }
